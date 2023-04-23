@@ -122,3 +122,56 @@ h1{
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+@media (max-width: 375px) {
+
+    body{
+        display: block;
+        box-sizing: border-box;
+        padding: 16px;
+    }
+
+    .container{
+        display: block;
+        width: auto;
+        height: 100%;
+        box-sizing: border-box;
+
+    }
+
+    .picture {
+        width: auto;
+        height: 240px;
+    }
+    
+    .picture img {
+        width: 100%;
+        height: 100%;
+        object-fit:cover;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .description{
+        width: auto;
+        height: auto;
+        padding: 2em;
+        box-sizing: border-box;
+    }
+
+    .fontGroup1 {
+        color: var(--Dark-Gray);
+        font-weight: 500;
+        margin: 0px;
+    }
+    
+    .fontGroup2 {
+        color: var(--Very-Dark);
+        font-family: 'Fraunces';
+        font-weight: 700;
+        font-size: 2em;
+        line-height: 1em;
+        margin: 2rem 0rem;
+    }
+
+    
+}
